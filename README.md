@@ -1,12 +1,4 @@
-<h2 style="text-align: center; vertical-align: middle">
-    <center><a href="https://www.sphereon.com"><img src="https://sphereon.com/content/themes/sphereon/assets/img/logo.svg" alt="Sphereon" width="320" style="vertical-align: middle" ></a></center>
-
-<br>SIOP v2 Demo Website      
-<br>
-<br>
-</h2>
-
-#### This is a demo website to test and showcase our ["Self Issued OpenID Provider v2 (SIOP)" library](https://github.com/Sphereon-Opensource/did-auth-siop).
+Self Issued Open ID Provider
 
 **NOTE: Please note, this is not intended as production code, nor a starting point for your own implementation.
 It is a quite simple and crude implementation to show how the SIOPv2 and OIDC4VP tech can work.**
@@ -145,22 +137,3 @@ Example VC:
     "UBOInformatie"
   ]
 }
-````
-
-#### Docker
-
-From the root folder run:
-
-```bash
-docker build -t onto-web-demo .
-docker run -it -p 5001:5001 -p 3000:3000 onto-web-demo
-```
-
-### Docker compose
-
-From the root folder run:
-
-```bash
-docker-compose up
-```
-
