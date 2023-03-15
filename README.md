@@ -39,24 +39,14 @@ The server will start on port 5001, the client will start & open a browser on ht
 
 #### Usage
 
-Once the demo site has loaded, you should see the following screen:
-
-![/resources/start-screen.png](/resources/start-screen.png)
+Once the demo site has loaded.
 
 Click "Sign in"
 A QR code will appear which can be scanned with the mobile OP authenticator module from our SSI-SDK.
-
-![login-qr-screen.png](resources/login-qr-screen.png)
-
-Once the SIOP accepts the receipt of the Presentation Definition the screen will change to:
-![login-wait-def-screen.png](resources/login-wait-def-screen.png)
-
 As soon as the SIOP sends in the Verifiable Presentation that conforms to the definition the SIOP will be authenticated:
-![login-wait-def-screen.png](resources/vp-received-screen.png)
 
 Note the Information in the top left corner which actually comes from the Verifiable Credential sent by the SIOP.
 
-app "[rn-did-siop-example-app](https://github.com/Sphereon-OpenSource/rn-did-siop-example-app)"
 After a successful login two extra page will appear in the menu navigation.
 
 #### Presentation Definition
