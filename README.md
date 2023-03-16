@@ -1,7 +1,6 @@
 Self Issued Open ID Provider
 
-**NOTE: Please note, this is not intended as production code, nor a starting point for your own implementation.
-It is a quite simple and crude implementation to show how the SIOPv2 and OIDC4VP tech can work.**
+**NOTE: It is a quite simple and crude implementation to show how the SIOPv2 and OIDC4VP tech can work.**
 
 ### Getting started
 
